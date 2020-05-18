@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+<title>Página JS</title>
+<meta charset="utf-8">
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body onload="load()">
+<h1>MINHA PÁGINA</h1>
+<button type="button" onclick="clicou()">Clique aqui</button>
+<p id="agradecimento" onclick="redirecionar()"></p>
+<!-- Não precisa de ID se usar this no elemento -->
+<p id="movimentomouse" onmouseover="trocar(this)" onmouseout="destrocar(this)">EVENTO MOUSE</p>
+<p id="movimentomouse2" onmouseover="trocar(this)" onmouseout="destrocar(this)">EVENTO MOUSE II</p>
+<select onchange="funcaoChange(this)">
+<option value="1">Valor 1</option>
+<option value="2">Valor 2</option>
+<option value="3">Valor 3</option>
+</select>
+</body>
+</html>
